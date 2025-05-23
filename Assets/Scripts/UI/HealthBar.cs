@@ -9,8 +9,8 @@ public class HealthBar : MonoBehaviour
 
     private void Start()
     {
-        if (PlayerAnim.instance == null)
-            Debug.Log("PLAER ÝS NULL");
+        //if (PlayerAnim.instance == null)
+        //    Debug.Log("PLAER ÝS NULL");
     }
     public void SetMaxHealth(float health)
     {
@@ -28,8 +28,8 @@ public class HealthBar : MonoBehaviour
     private void Update()
     {
        
-       float healt = PlayerAnim.instance.GetComponent<Health>().currentHealth;
-        SetHealth(healt);
+       //float healt = PlayerAnim.instance.GetComponent<Health>().currentHealth;
+       // SetHealth(healt);
     }
 
 }

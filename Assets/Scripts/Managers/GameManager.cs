@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
         CurrentState = GameState.AttributeSelection;
 
         Debug.Log("Showing Attribute Selection UI...");
-        attributeUI.ShowRandomAttributes();
+        //attributeUI.ShowRandomAttributes();
         Time.timeScale = 0f; // Pause game
     }
 
